@@ -1,17 +1,18 @@
 body{
-    background: black !important;
+    background: #252525 !important;
+    /* 0a032c */
 }
 
 .icon-style{
-    /* border: 5px solid grey; */
-    /* border-radius: 50%; */
+    color: #a4abbb;
 
 }
 
-.icon-style:hover{
-    /* color: #5c375c; */
-    /* transform: scale(1,1); */
-}
+/* .icon-style:hover{
+    color: #5c375c; 
+     transform: scale(1,1);
+} */
+
 
 ul{
     list-style-type: none;
