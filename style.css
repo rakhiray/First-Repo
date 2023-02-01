@@ -1,0 +1,57 @@
+body{
+    background: black !important;
+}
+
+ul{
+    list-style-type: none;
+} 
+
+
+.list-ele{
+    border: 1px #E5EAF5 solid;
+    height: auto;
+    width: auto;
+    
+    /* border: 1px #E5EAF5 solid; */
+
+    text-align: center;
+    /* justify-content: space-evenly; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #A0D2EB;
+    /* transition: width 2s, height 2s, transform 2s; */
+    transition-timing-function: ease;
+    transition: width 2s height 2s;
+}
+
+/* @keyframes animation {
+    from{
+        transform: rotate(0);
+        right: 0px;
+      }
+    to{
+        transform: rotate(360deg);
+        right: 200px;
+      }
+      
+} */
+
+.list-ele:hover {      
+    background-color: #D0BDF4;
+    color: #5c375c;
+    font-weight: bold; 
+
+    width: 800px;
+    height: 500px;
+    /* transform: rotate(360deg);   */
+     /* position: relative; */
+    /*animation-timing-function: ease;
+    animation-name: animation;
+    animation-duration: 5s; */
+
+    /* animation-direction: reverse; */
+    /* animation: mymove 5s infinite; */
+}
+
+
+
+
