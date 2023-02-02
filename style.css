@@ -32,14 +32,19 @@ li a:hover{
     color: rgb(176, 176, 81);
 }
 
+.card-main{
+    /* width: auto; */
+    /* max-width: 250px; */
+    background-color: #252525;
+    border-left: 2px solid;
+    border-top: 2px solid;    
+    padding-top: 20px;
+    padding-left: 20px;
+    border-image: linear-gradient(to right, #0dcaf0, #252525) 1;
+    /* border-image: linear-gradient(to bottom, purple, #252525) 1; */
 
-/* .list-ele:hover {      
-    background-color: #D0BDF4;
-    color: #5c375c;
-    font-weight: bold; 
-    
-} */
-
+    /* border-image: linear-gradient(to bottom, red, purple) 1; */
+}   
 
 
 
