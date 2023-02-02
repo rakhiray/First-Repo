@@ -11,18 +11,18 @@ body{
     color: rgb(176, 176, 81);
 }
 
-ul{
+.nav-list{
     list-style-type: none;
     overflow: hidden;
     display: inline-flex;
     float: right;
 } 
 
-li{
+.list-ele{
    padding: 10px;
 }
 
-li a {
+.list-item {
     text-decoration: none;
     color: #a4abbb;
     font-size :medium;
@@ -31,7 +31,7 @@ li a {
     border-bottom:1px solid #a4abbb;
 }
 
-li a:hover{
+.list-item:hover{
     color: #0dcaf0;
     text-shadow: 0 0 3px #e5ebec;
 
