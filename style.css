@@ -25,25 +25,29 @@ li{
 li a {
     text-decoration: none;
     color: #a4abbb;
-    font-size :medium
+    font-size :medium;
+    /* border-color: #a4abbb; */
+    /* border-style: outset; */
+    border-bottom:1px solid #a4abbb;
 }
 
 li a:hover{
-    color: rgb(176, 176, 81);
+    color: #0dcaf0;
+    text-shadow: 0 0 3px #e5ebec;
+
 }
 
 .card-main{
-    /* width: auto; */
-    /* max-width: 250px; */
+    position: relative;
     background-color: #252525;
-    border-left: 2px solid;
-    border-top: 2px solid;    
+    border-left: 2px solid; 
+    border-right: 2px solid; 
+    /* border-top: 2px solid #0dcaf0;    */
+
     padding-top: 20px;
     padding-left: 20px;
-    border-image: linear-gradient(to right, #0dcaf0, #252525) 1;
+    border-image: linear-gradient(to bottom, #0dcaf0, #252525) 1 100%;
     /* border-image: linear-gradient(to bottom, purple, #252525) 1; */
-
-    /* border-image: linear-gradient(to bottom, red, purple) 1; */
 }   
 
 
