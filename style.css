@@ -5,64 +5,40 @@ body{
 
 .icon-style{
     color: #a4abbb;
-
 }
 
-/* .icon-style:hover{
-    color: #5c375c; 
-     transform: scale(1,1);
-} */
-
+.icon-style:hover{
+    color: rgb(176, 176, 81);
+}
 
 ul{
     list-style-type: none;
+    overflow: hidden;
+    display: inline-flex;
+    float: right;
 } 
 
-
-.list-ele{
-    border: 1px #E5EAF5 solid;
-    height: auto;
-    width: auto;
-    
-    /* border: 1px #E5EAF5 solid; */
-
-    text-align: center;
-    /* justify-content: space-evenly; */
-    border-radius: 5px;
-    box-shadow: 2px 2px 1px #A0D2EB;
-    /* transition: width 2s, height 2s, transform 2s; */
-    transition-timing-function: ease;
-    transition: width 2s height 2s;
+li{
+   padding: 10px;
 }
 
-/* @keyframes animation {
-    from{
-        transform: rotate(0);
-        right: 0px;
-      }
-    to{
-        transform: rotate(360deg);
-        right: 200px;
-      }
-      
-} */
+li a {
+    text-decoration: none;
+    color: #a4abbb;
+    font-size :medium
+}
 
-.list-ele:hover {      
+li a:hover{
+    color: rgb(176, 176, 81);
+}
+
+
+/* .list-ele:hover {      
     background-color: #D0BDF4;
     color: #5c375c;
     font-weight: bold; 
-
-    width: 800px;
-    height: 500px;
-    /* transform: rotate(360deg);   */
-     /* position: relative; */
-    /*animation-timing-function: ease;
-    animation-name: animation;
-    animation-duration: 5s; */
-
-    /* animation-direction: reverse; */
-    /* animation: mymove 5s infinite; */
-}
+    
+} */
 
 
 
