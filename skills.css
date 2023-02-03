@@ -1,72 +1,68 @@
- @keyframes load{
-    from {
-      width: 0%
-    }
-  }
-  @-webkit-keyframes load{
-    from {
-      width: 0%
-    }
-  }
-  @-moz-keyframes load{
-    from {
-      width: 0%
-    }
-  }
-  @-o-keyframes load{
-    from {
-      width: 0%
-    }
-  }
+@keyframes load{ 
+  from {width: 0%}
+}
+
+@-webkit-keyframes load{
+  from {width: 0%}
+}
+
+@-moz-keyframes load{
+  from {width: 0%}
+}
+
+@-o-keyframes load{
+    from {width: 0%}
+}
   
-  .bar{
-    padding: 2px;
-    border-radius: 15px;
-    margin-bottom: 8px;
-    font-size: 10px;
-    color: #FFF;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+.bar{
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 8px;
+  font-size: 10px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 
-   
-    background-color: #252525;
-    border: 2px solid #0dcaf0;
-  }
-  .bar::before{
-    content:  attr(data-skill);
-    display: inline-block;
-    padding: 5px 0 5px 10px;
-    border-radius: inherit;
-    animation: load 2s 0s;
-    -webkit-animation: load 2s 0s;
-    -moz-animation: load 2s 0s;
-    -o-animation: load 2s 0s;
+  background-color: #252525;
+  border: 2px solid #0dcaf0;
+}
 
-    background-color: #ff8fcf;
+.bar::before{
+  content:  attr(data-skill);
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
 
-  }
+  background-color: #ff8fcf;
+}
 
-
-  .bar.learning::before{
-    
+.bar.learning::before{
     width: calc(40% - 10px);
-  }
-  .bar.basic::before{
-    background-color: #4fce74;
-    width: calc(60% - 10px);
-  }
-  .bar.intermediate::before{
-    background-color: #037a90;
-    width: calc(70% - 10px);
-  }
-  .bar.advanced::before{
-    background-color: #ce96fb;
-    width: calc(80% - 10px);
-  }
-  .bar.expert::before{
-    background-color: #00c2ba;
-    width: calc(90% - 10px);
-  }
+}
+
+.bar.basic::before{
+  background-color: #4fce74;
+  width: calc(60% - 10px);
+}
+
+.bar.intermediate::before{
+  background-color: #037a90;
+  width: calc(70% - 10px);
+}
+
+.bar.advanced::before{
+  background-color: #ce96fb;
+  width: calc(80% - 10px);
+}
+
+.bar.expert::before{
+  background-color: #00c2ba;
+  width: calc(90% - 10px);
+}
   
 
 
