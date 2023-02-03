@@ -12,5 +12,13 @@
 }    
 
 
+.icon-style{
+    color: #a4abbb;
+}
+
+
+.icon-style:hover{
+    color: #0dcaf0;
+}
 
 
