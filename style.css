@@ -15,7 +15,7 @@ body{
     list-style-type: none;
     overflow: hidden;
     display: inline-flex;
-    float: right;
+    /* float: right !important; */
 } 
 
 .list-ele{
@@ -49,6 +49,10 @@ body{
     border-image: linear-gradient(to bottom, #0dcaf0, #252525) 1 100%;
     /* border-image: linear-gradient(to bottom, purple, #252525) 1; */
 }    
+
+.fr{
+    float: right;
+}
 
 
 

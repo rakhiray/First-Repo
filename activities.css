@@ -35,5 +35,9 @@ body{
     text-shadow:2px 1px 1px rgb(139, 70, 139);
   }
 
+  .fr{
+    float: right;
+}
+
 
 

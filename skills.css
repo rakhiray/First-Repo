@@ -86,27 +86,26 @@
     background-color: #ff8fcf;
 
   }
-  
-  .bar.front::before{
-    background-color: #00c2ba;
-  }
-  .bar.back::before{
-    background-color: #ce96fb;
-  }
-  
+
+
   .bar.learning::before{
+    
     width: calc(40% - 10px);
   }
   .bar.basic::before{
+    background-color: #4fce74;
     width: calc(60% - 10px);
   }
   .bar.intermediate::before{
+    background-color: #037a90;
     width: calc(70% - 10px);
   }
   .bar.advanced::before{
+    background-color: #ce96fb;
     width: calc(80% - 10px);
   }
   .bar.expert::before{
+    background-color: #00c2ba;
     width: calc(90% - 10px);
   }
   
@@ -118,3 +117,7 @@
     font-weight: bold;
     text-shadow:2px 1px 1px rgb(139, 70, 139);
   }
+
+  .fr{
+    float: right;
+}
