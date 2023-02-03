@@ -1,45 +1,4 @@
- body{
-    background: #252525 !important;
-    /* font-family: Helvetica, Arial, sans-serif; */
-}
-
-.nav-list{
-    list-style-type: none;
-    overflow: hidden;
-    display: inline-flex;
-    float: right;
-} 
-
-.list-ele{
-   padding: 10px;
-}
-
-.list-item {
-    text-decoration: none;
-    color: #a4abbb;
-    font-size :medium;
-    border-bottom:1px solid #a4abbb;
-}
-
-.list-item:hover{
-    color: #0dcaf0;
-    text-shadow: 0 0 3px #e5ebec;
-
-}
-
-/* .skill-bar{
-    height: 20px;
-    width: 50px;
-    background-color: rgb(17, 202, 103);
-    color: azure;
-    margin: 5px;
-} */
-
-  /* .container{
-    width: 50%;
-    margin: 0 auto;
-  } */
-  @keyframes load{
+ @keyframes load{
     from {
       width: 0%
     }
@@ -118,6 +77,3 @@
     text-shadow:2px 1px 1px rgb(139, 70, 139);
   }
 
-  .fr{
-    float: right;
-}
