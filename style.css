@@ -8,7 +8,7 @@ body{
 }
 
 .icon-style:hover{
-    color: rgb(176, 176, 81);
+    color: #0dcaf0;
 }
 
 .nav-list{
@@ -48,7 +48,7 @@ body{
     padding-left: 20px;
     border-image: linear-gradient(to bottom, #0dcaf0, #252525) 1 100%;
     /* border-image: linear-gradient(to bottom, purple, #252525) 1; */
-}   
+}    
 
 
 
